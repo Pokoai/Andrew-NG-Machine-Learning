@@ -1,0 +1,4 @@
+在MatplotlibWidget.py中直接测试，等高线图是可以成功绘制的
+但是不知道为什么CallLogisticRegressionUI去调用时，就无法绘制，窗口还会闪退
+
+待找到bug后再来更新

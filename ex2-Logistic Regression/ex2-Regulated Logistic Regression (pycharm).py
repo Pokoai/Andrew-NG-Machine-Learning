@@ -133,7 +133,7 @@ def find_decision_boundary(density, power, theta, threshhold):
 
 # 画决策边界
 def draw_boundary(power, lambdaRate):
-    density = 100
+    density = 1000
     threshhold = 2 * 10 ** (-3)
 
     theta = find_theta(power, lambdaRate)
@@ -164,5 +164,5 @@ def draw_boundary(power, lambdaRate):
 
 # 绘制决策边界
 if __name__ == '__main__':
-    start = time.perf_counter()
-    draw_boundary(power=6, lambdaRate=1)
+     start = time.perf_counter()
+     draw_boundary(power=6, lambdaRate=1)
